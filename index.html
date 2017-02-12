@@ -21,10 +21,10 @@
 <body ng-app='myApp' class="ng-cloak">
 	<ng-view></ng-view>
     <script id="temp" type='text/ng-template'>
-    	<section class="todoapp" ng-controller='DataController'>
+    	<section class="todoapp">
         <header class="header">
             <h1>todos</h1>
-            <!-- 
+            <!--
 				这里使用form的submit实现触发回车键事件
 				 -->
             <form ng-submit='add()'>
